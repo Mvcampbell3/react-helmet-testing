@@ -5,7 +5,7 @@ const Home = (props) => {
         <div className="container home-container">
             <h1 className="title">Home</h1>
             <p className="decr">
-                Head to the Grinch page so see Helmet dynamically adding script
+                Head to the Grinch page to see Helmet dynamically adding script
                 tags
             </p>
             <p className="decr">

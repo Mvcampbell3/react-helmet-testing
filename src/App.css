@@ -1,38 +1,61 @@
+.header {
+    width: 100%;
+    background-color: #111;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 1em;
+}
+
+.navbar-link {
+    font-size: 28px;
+    padding: 1em;
+    color: #fff;
+    text-decoration: underline #ccc;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.container {
+    background-color: #fff;
+    min-height: calc(100vh - 53px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.title {
+    margin-top: 0;
+}
+
+.elf-container {
+    background-image: url("./images/elf.jpg");
+}
+
+.grinch-container {
+    background-image: url("./images/grinch.jpg");
+}
+
+.vacation-container {
+    background-image: url("./images/vacation.jpg");
+    background-position: top center;
+    background-size: contain;
+}
+
 .App {
-  text-align: center;
+    background-color: #eee;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home-container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  align-items: center;
 }
